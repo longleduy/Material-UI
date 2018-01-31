@@ -1,0 +1,44 @@
+.card_list {
+    table {
+        tbody {
+            tr {
+                td {
+                    font-size: 15px;
+                    font-weight: bold;
+                    color: $main_color_800;
+                    span.btn_icon {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        border: solid 1px $main_color_800;
+                        -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+                        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+                    }
+                    i {
+                        color: $main_color_600;
+                        margin-top: 7px;
+                    }
+                }
+                td:nth-child(1) {
+                    text-align: left;
+                    width: 20%;
+                    img {
+                        max-width: 100%;
+                    }
+                }
+                .amount {
+                    display: inline-grid;
+                    label {
+                        font-weight: bold;
+                        color: $main_color_800;
+                        font-size: 16px;
+                    }
+                }
+            }
+            tr:nth-child(2) td label {
+                color: #263238;
+                font-size:  larger;
+            }
+        }
+    }
+}

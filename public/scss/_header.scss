@@ -1,0 +1,33 @@
+.col.s12.header {
+    min-height: 65px;
+    .menu {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        z-index: 999;
+        nav {
+            background-color: $main_color_main;
+            li.active {
+                background-color: $main_color_900;
+            }
+            .nav-wrapper {
+                a.brand-logo.center {
+                    font-size: 2.5em !important;
+                    font-weight: bold;
+                    color: white;
+                }
+                ul {
+                    li {
+                        a {
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.col.unset_padding {
+    padding: 0px !important;
+}

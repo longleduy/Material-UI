@@ -1,0 +1,54 @@
+.col.s12.list {
+    margin-top: 15px;
+    label.list_title {
+        width: 100%;
+        float: left;
+        padding: 6px 0px;
+        color: $main_color_900;
+        font-size: 20px;
+        font-weight: 500;
+        border-bottom: solid 1px $main_color_900;
+    }
+}
+
+.card {
+    width: 100%;
+    float: left;
+    .card-title {
+        font-weight: 500 !important;
+        color: $main_dark_text !important;
+    }
+    .card-image ul {
+        position: absolute;
+        color: white;
+        bottom: 0px;
+        margin: 0px 5px;
+        li {
+            display: inline;
+            i {
+                font-size: 1em;
+            }
+        }
+    }
+    .card-price {
+        padding: 22px 0px;
+        background-color: #546E7A;
+        width: 100%;
+        float: left;
+        label {
+            color: white;
+            font-size: 1em;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+        }
+        i.small {
+            float: right;
+            color: white;
+            position: absolute;
+            top: 50%;
+            right: 45%;
+            transform: translateY(-50%);
+        }
+    }
+}

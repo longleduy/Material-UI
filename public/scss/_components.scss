@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(-45deg, #ECEFF1, #B0BEC5);
+}
+.container{
+    overflow: hidden;
+}
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block; 
+    clear: both;
+}
